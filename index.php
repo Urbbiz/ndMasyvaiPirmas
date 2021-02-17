@@ -2,14 +2,6 @@
 </h5>
 
 <?php
-// $masyvas[]=[];
-// for ($i = 0; $i <= 29; $i++){
-// $masyvas[] = [rand(5, 25)];
-
-// }
-// echo '<pre>';
-// print_r ($masyvas);
-// echo '<br><br>';
 
 $masyvas = [];
 
@@ -21,7 +13,7 @@ print_r($masyvas);
 
 ?>
 
-<h5>Naudodamiesi 1 uždavinio masyvu:</h5>
+<h5>2. Naudodamiesi 1 uždavinio masyvu:</h5>
 <p>a) Suskaičiuokite kiek masyve yra reikšmių didesnių už 10;</p>
 <?php
 $daugiauNegu10 = 0;
@@ -312,6 +304,8 @@ for($i = 0; $i<10; $i++){
     
 
 echo '<pre>';
-print_r($paskutinisMasyvas);
+_dc($paskutinisMasyvas);
+
 ?>
+
 
