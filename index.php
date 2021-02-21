@@ -247,8 +247,8 @@ for ($i = 0; $i<count($array1); $i++){
         
     }
 }
-// echo '<pre>';
-// print_r($arrayUnikaliosReiksmes);
+echo '<pre>';
+print_r($arrayUnikaliosReiksmes);
 ?>
 <h4>8.  Sugeneruokite masyvą iš elementų, kurie kartojasi abiejuose 6 uždavinio masyvuose.
 </h4>
@@ -279,6 +279,7 @@ for($i = 0; $i < count($array1); $i++) {
 }
 echo '<pre>';
 print_r($balaganasMasyvas);
+_d("bla bla");
 ?>
 <h4>10. Sugeneruokite 10 skaičių masyvą pagal taisyklę: Du pirmi skaičiai- atsitiktiniai nuo 5 iki 25. Trečias, pirmo ir antro suma. Ketvirtas- antro ir trečio suma. Penktas trečio ir ketvirto suma ir t.t.
 </h4>
@@ -305,6 +306,7 @@ for($i = 0; $i<10; $i++){
 
 echo '<pre>';
 _dc($paskutinisMasyvas);
+_d("bla bla");
 
 ?>
 
